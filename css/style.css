@@ -1,0 +1,80 @@
+.hidden{
+  display: none;
+}
+#clock {
+
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+img {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+  opacity:80%;
+  }
+
+#greeting{
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+
+}
+
+#todo-form{
+  margin:auto;
+
+  width: 500px;
+  height: 50px;
+}
+#todo-form input{
+  height: 100%;
+  border-radius: 5px;
+  border-color: royalblue;
+  width: 100%;
+  font-size: 30px;;
+}
+
+#todo-list {
+  font-size: 20px;
+  justify-content: right;
+}
+
+#todo-list li{
+  color: wheat;
+  justify-content: right;
+}
+#todo-list li button{
+  background-color: wheat;
+  position: absolute;
+  right: 0px;
+}
+#quote {
+  margin: auto;
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+}
+#quote span{
+  justify-content: center;
+}
+#weather{
+  position: absolute;
+  top: 10px;
+  right: 200px;
+}
+
+.list {
+  position: absolute;
+  margin: auto;
+  right: 200px;
+  top: 500px;
+  width: 300px;
+}
